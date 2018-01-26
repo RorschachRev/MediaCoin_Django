@@ -23,6 +23,26 @@ def demo(request):
 def ico(request):
 	return render(request, 'mediacoin/pages/ico.html')
 
+# contact
+def contact(request):
+	return render(request, 'mediacoin/pages/contact.html')
+
+# support
+def support(request):
+	return render(request, 'mediacoin/pages/support.html')
+
+# platform page
+def platform(request):
+	return render(request, 'mediacoin/pages/platform.html')
+
+# referral page
+def manageref(request):
+	return render(request, 'mediacoin/pages/referral.html')
+
+# artist page
+def artist(request):
+	return render(request, 'mediacoin/pages/artist.html')
+
 # roadmap page
 def roadmap(request):
 	return render(request, 'mediacoin/pages/roadmap.html')

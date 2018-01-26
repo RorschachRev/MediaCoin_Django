@@ -39,7 +39,7 @@ urlpatterns = [
     url(r'^roadmap.html$', views.roadmap, name='roadmap'),
     url(r'^team.html$', views.team, name='team'),
     url(r'^ico.html$', views.ico, name='ico'),
-    url(r'^suport.html$', views.support, name='support'),
+    url(r'^support.html$', views.support, name='support'),
     url(r'^contact.html$', views.contact, name='contact'),
 
     # purchase gift promo code page

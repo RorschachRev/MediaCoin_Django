@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %} Refund Policy | MediaCoin {% endblock %}
+
+{% block page-styles %}
+
+    <link href="{% static 'stylesheets/refund.css' %}" rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="section space-for-header"></div>
+    <section class="section section__refund">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="refund__heading">Refund Policy Notes</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="refund__text">
+                        Pending transactions and transactions that have not purchased tokens can be
+                        reversed upon the purchasers request (processing fees may apply to user).
+                    </p>
+                    <p class="refund__text">
+                        After the purchase of tokens has taken place, there are no refunds that may
+                        be processed, however we may be able to offer you guidance in how to exchange
+                        them with a support request (processing fees may apply to user).
+                    </p>
+                    <p class="refund__text">
+                        Immutability of blockchain can not be undone, therefore, executed transactions
+                        cannot be reversed. In the situation where token has been spent, there will be no
+                        refund possibilities available.
+                    </p>
+                    <p class="refund__text">
+                        We, at MediaCoin are not responsible and are under no liability for incidences
+                        caused by PC malfunction, misunderstanding, or failure to adhere to policies and
+                        procedures laid out in facets of our website.
+                    </p>
+                    <p class="refund__text">
+                        Please be informed that MediaCoin is an ever evolving development and is not an
+                        official currency, however, most institutions will still require you to pay income,
+                        sales, capital gains, and/or any other applicable taxes on anything that has value,
+                        including cryptocurrency.  We encourage you to consult an expert before making any
+                        major investments, as it is your responsibility to adhere to legal and regulatory
+                        mandates issued by government entities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
+
+{% block page-scripts %}
+
+{% endblock %}

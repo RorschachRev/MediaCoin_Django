@@ -193,8 +193,8 @@
 }
 
 .funding-pre-ico {
-    margin-top: 80px;
-    background-image: url(../images/timer.jpg);
+    /* margin-top: 80px; */
+    /* background-image: url(../images/timer.jpg); */
     background-position: center;
     background-size: cover;
 }

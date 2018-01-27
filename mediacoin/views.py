@@ -11,17 +11,38 @@ from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
 from django.core.mail import send_mail
 
-# index view page
 def index(request):
 	return render(request, 'mediacoin/index.html')
-
-# demo view page
 def demo(request):
 	return render(request, 'mediacoin/demo.html')
 
 # ICO stretch goals view page
 def ico(request):
 	return render(request, 'mediacoin/pages/ico.html')
+def refund(request):
+	return render(request, 'mediacoin/pages/refund.html')
+def privacy(request):
+	return render(request, 'mediacoin/pages/privacy.html')
+
+# contact
+def contact(request):
+	return render(request, 'mediacoin/pages/contact.html')
+
+# support
+def support(request):
+	return render(request, 'mediacoin/pages/support.html')
+
+# platform page
+def platform(request):
+	return render(request, 'mediacoin/pages/platform.html')
+
+# referral page
+def manageref(request):
+	return render(request, 'mediacoin/pages/referral.html')
+
+# artist page
+def artist(request):
+	return render(request, 'mediacoin/pages/artist.html')
 
 # roadmap page
 def roadmap(request):

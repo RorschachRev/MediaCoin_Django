@@ -42,8 +42,12 @@ urlpatterns = [
     url(r'^privacy.html$', views.privacy, name='privacy'),
     url(r'^refund.html$', views.refund, name='refund'),
     url(r'^cookies.html$', views.cookies, name='cookies'),
-    url(r'^suport.html$', views.support, name='support'),
+    url(r'^support.html$', views.support, name='support'),
     url(r'^contact.html$', views.contact, name='contact'),
+    url(r'^refund.html$', views.refund, name='refund'),
+    url(r'^privacy.html$', views.privacy, name='privacy'),
+    #url(r'^net_neutrality.html$', views.netneutral, name='netneutral'),
+
 
     # purchase gift promo code page
     url(r'^purchase-gift-card/$', views.purchaseGiftCard, name='purchase-gift-card'),

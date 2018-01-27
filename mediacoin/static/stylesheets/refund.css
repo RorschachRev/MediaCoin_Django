@@ -1,0 +1,26 @@
+.container {
+    background-color: #333;
+}
+
+.refund__heading,
+.privacy__heading {
+    font-size: 4em;
+    color: #999999;
+    text-align: center;
+}
+
+.privacy__text,
+.refund__text{
+    text-indent: 50px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #777777;
+}
+
+.privacy__text-link {
+    transition: all .4s;
+}
+
+.privacy__text-date {
+    color: #fff;
+}

@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+#from settings_secret import *
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'paypal.standard.ipn',
     'mediacoin',
 ]
 
@@ -118,6 +120,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+PAYPAL_TEST = True
+
 
 # Braintree environment
 BRAINTREE_ENV = 'sandbox'
@@ -129,8 +133,8 @@ BRAINTREE_PRIVATE_KEY = 'bd323d6c0b5eb08d68aff8a59bcbd074'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'cool.webpro17@gmail.com'
-EMAIL_HOST_PASSWORD = 'coolDev!@#4'
+EMAIL_HOST_USER = 'cool.webpro17@gmail.com'	#TODO
+EMAIL_HOST_PASSWORD = 'coolDev!@#4'	#TODO
 
 # Custom Available For token
 AVAILABLE_CHARACTERS_FOR_TOKEN = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'

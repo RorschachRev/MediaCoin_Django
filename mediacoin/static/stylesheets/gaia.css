@@ -4453,3 +4453,6 @@ body {
     right: 4px;
     font-size: 32px;
 }
+.funding-pre-ico h3,h4  {
+    color: lightgrey;
+}

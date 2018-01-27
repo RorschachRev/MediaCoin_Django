@@ -23,6 +23,8 @@ def refund(request):
 	return render(request, 'mediacoin/pages/refund.html')
 def privacy(request):
 	return render(request, 'mediacoin/pages/privacy.html')
+def cookies(request):
+	return render(request, 'mediacoin/pages/cookies.html')
 
 # contact
 def contact(request):

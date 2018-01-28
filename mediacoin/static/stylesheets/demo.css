@@ -9,8 +9,8 @@ video {
     width: initial;
 }
 
-.demo .section { 
-    padding: 50px;
+.section.demo { 
+    padding-top: 100px;
 }
 
 @media screen and (max-width: 1023px) {

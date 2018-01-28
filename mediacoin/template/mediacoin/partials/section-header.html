@@ -3,12 +3,11 @@
 <div class="section section-header">
     <video class="bg-video" autoplay="autoplay" title="video_bg" preload="yes"
            loop="loop" poster="{% static 'media/video/Data.jpg' %}"
-           src="{{ request.build_absolute_uri | slice:":-1" }}{% static 'media/video/Data.m4v' %}">
-        <source src="{{ request.build_absolute_uri | slice:":-1" }}{% static 'media/video/Data.mp4' %}"/>
-        <source src="{{ request.build_absolute_uri | slice:":-1" }}{% static 'media/video/Data.m4v' %}" type="video/mp4"/>
-        <source src="{{ request.build_absolute_uri | slice:":-1" }}{% static 'media/video/Data.webm' %}" type="video/webm;codecs='vp8, vorbis'"/>
-        <source src="{{ request.build_absolute_uri | slice:":-1" }}{% static 'media/video/Data.ogv' %}" type="video/ogg"/>
-
+           src="{% static 'media/video/Data.m4v' %}">
+        <source src="{% static 'media/video/Data.m4v' %}"/>
+        <source src="{% static 'media/video/Data.mp4' %}" type="video/mp4"/>
+        <source src="{% static 'media/video/Data.webm' %}" type="video/webm;codecs='vp8, vorbis'"/>
+        <source src="{% static 'media/video/Data.ogv' %}" type="video/ogg"/>
         <object type="application/x-shockwave-flash" data="{% static 'media/video/flashfox.swf' %}">
             <param name="movie" value="{% static 'media/video/flashfox.swf' %}"/>
             <param name="allowFullScreen" value="true"/>
@@ -36,10 +35,7 @@
                 <a href="/static/images/whitepaper.pdf" class="btn btn-white btn-fill btn-lg custom-header-but">
                     Read Whitepaper
                 </a>
-                <a href="/static/images/greenpaper.pdf" class="btn btn-green btn-fill btn-lg custom-header-but">
-                    Read Greenpaper
-                </a>
-                <a href="https://mediacoin.stream/demo/" class="btn btn-black btn-fill btn-lg custom-header-but">
+                <a href="/demo.html" class="btn btn-black btn-fill btn-lg custom-header-but">
                     Try Demo
                 </a>
             </div>

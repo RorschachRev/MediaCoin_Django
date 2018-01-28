@@ -9,6 +9,10 @@ video {
     width: initial;
 }
 
+.demo .section { 
+    padding: 50px;
+}
+
 @media screen and (max-width: 1023px) {
     canvas {
         background-color: #ccc;

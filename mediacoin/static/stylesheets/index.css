@@ -24,6 +24,7 @@
 /*    background-image: url(../images/repeatbg.png);  */
     background-position: center;
     background-repeat: repeat;
+    padding-bottom: 20px;
 }
 
 
@@ -296,16 +297,24 @@ color:white;
         padding-right: 100px;
         padding-left: 100px;
     }
+    #ico-token {
+       display: none;
+   }
 }
 
 @media screen and (max-width: 500px) {
     .info-icon img {
-        width: 100%;
+        width: 80%;
     }
 
     .ico-stretch-goals .container {
         padding-right: 30px;
         padding-left: 30px;
+        width: 80%;
+
+    }
+    #ico-token {
+        display: none;
     }
 }
 

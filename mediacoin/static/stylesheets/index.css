@@ -17,15 +17,15 @@
     letter-spacing: 1px;
 }
 
+.ico-token-budget h3.custom-h3 {
+    color: white;
+}
 .ico-token-budget {
-    background-image: url(../images/repeatbg.png); 
+/*    background-image: url(../images/repeatbg.png);  */
     background-position: center;
     background-repeat: repeat;
 }
 
-.ico-token-budget img {
-    margin-top: 60px;
-}
 
 .pre-ico-budget .info-icon .custom-description, .pre-ico-budget .info-icon .custom-h3 {
     text-align: right;
@@ -41,7 +41,7 @@
 
 .info-icon img {
     /*width: 100%;*/
-    width: 200px;
+    /* width: 200px; */
     margin-top: calc(50% - 100px);
 }
 
@@ -139,6 +139,10 @@
 
 .section.features .each-feature:nth-child(even) .info-icon .custom-h3, .section.features .each-feature:nth-child(even) .info-icon .custom-description {
     text-align: right !important;
+}
+
+h3 {
+color:white;
 }
 
 .section.features .float-left {
@@ -303,4 +307,8 @@
         padding-right: 30px;
         padding-left: 30px;
     }
+}
+
+#ico-token {
+margin-top: calc(40% - 100px);
 }

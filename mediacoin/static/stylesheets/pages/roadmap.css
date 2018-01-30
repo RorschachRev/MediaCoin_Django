@@ -50,16 +50,16 @@ ul {
     color: #fff;
     font-family: 'MavenPro-Bold';
     font-size: 12px;
-    white-space: nowrap;
-    overflow: hidden;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
     text-overflow: ellipsis;
 }
 .roadmap__description-list li {
     color: #fff;
     font-family: 'MavenPro-regular';
     font-size: 12px;
-    white-space: nowrap;
-    overflow: hidden;
+/*    white-space: nowrap; */
+/*    overflow: hidden; */
     text-overflow: ellipsis;
 }
 .roadmap__date {
@@ -78,13 +78,13 @@ ul {
 .description__right {
     padding-left: 15px;
     border-left: 2px dashed #78b4d4;
-    max-width: 260px;
+    max-width: 265px;
     width: 100%;
 }
 .description__left {
     padding-right: 15px;
     border-right: 2px dashed #efcf32;
-    max-width: 260px;
+    max-width: 265px;
     width: 100%;
 }
 .description__left > ul {

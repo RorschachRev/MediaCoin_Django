@@ -29,6 +29,8 @@ def land(request):
 	return render(request, 'mediacoin/land/land_page1.html')
 def land2(request):
 	return render(request, 'mediacoin/land/landing_page.html')
+def land3(request):
+	return render(request, 'mediacoin/land/landing_page.html')
 
 # contact
 def contact(request):

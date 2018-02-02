@@ -51,7 +51,7 @@ urlpatterns = [
 
     url(r'^land.html$', views.land , name='land'),
     url(r'^land_general.html$', views.land2 , name='land2'),
-    url(r'^lblockchain1/$', views.ico, name='ico'),
+    url(r'^lblockchain1/$', views.land3, name='land3'),
 
     # purchase gift promo code page
     url(r'^purchase-gift-card/$', views.purchaseGiftCard, name='purchase-gift-card'),

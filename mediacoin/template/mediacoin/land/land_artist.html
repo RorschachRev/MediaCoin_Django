@@ -4,18 +4,15 @@
 
 {% block title %} Musician Services | MediaCoin {% endblock %}
 
+{% block page-styles %}
+
+    <link href="{% static 'stylesheets/pages/referral.css' %}" rel="stylesheet">
+
+{% endblock %}
+
 {% block content %}
-<style>
-p.artist__text {
-color: white;
-}
-li { 
-color: white;
-}
-#musicianservice {
-margin-top: 100px;
-}
-</style>
+
+    <div class="section space-for-header"></div>
     <section class="section section__refund">
         <div class="container">
             <div class="row">
@@ -28,9 +25,6 @@ margin-top: 100px;
                     <p class="artist__text">
                         Success as a musician involves a lot of extra business skills, learning sales, advertising, marketing, budgeting, technology and publication. MediaCoin strives to provide custom solutions with your personal account representative to put you on the fast track to success. Whether you are already an established artist or starting from the beginning, our strategy will enhance your relationship with fans while letting you focus on the music. MediaCoin offers individual marketing services directly to musicians at our cost:
                     </p>
-			</div></div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
 					<ul>
 						<li>Advertising:
 							<ol>
@@ -64,7 +58,7 @@ margin-top: 100px;
 								<li>Prepaid credit card, Paypal, merchant card services</li>
 							</ol>
 						</li>	
-                <li>Technology:
+						<li>Technology:
 							<ol>
 								<li>Twitter, Facebook, Instagram, and many more</li>
 								<li>Publishing Content</li>
@@ -75,8 +69,6 @@ margin-top: 100px;
 								<li>App tracking for contact management</li>
 							</ol>
 						</li>	
-               </div>
-                <div class="col-md-6 col-sm-12">
 						<li>Marketplace:
 							<ol>
 								<li>Musicians looking for bands</li>
@@ -115,16 +107,21 @@ margin-top: 100px;
 								<li>Accounting and Tax services</li>
 							</ol>
 						</li>	
-						</div>
-						<div class="row"><div class="col-sm-12">
 				<p class="artist__text">
-					What do we get out of it? Our Premier Service is only available to artists who provide MediaCoin with exclusive digital content access. By making artists who partner with us successful, our platform becomes more successful. This service is available for digital exclusive content because once songs are heavily pirated, we can&apos;t put the toothpaste back in the tube. Many users won&apos;t pay artists for content that is freely available, our goal is to prevent the files from being widely distributed without financial support.
+					What do we get out of it? Our Premier Service is only available to artists who provide MediaCoin with exclusive digital content access. By making artists who partner with us successful, our platform becomes more successful. This service is available for digital exclusive content because once songs are heavily pirated, we can’t put the toothpaste back in the tube. Many users won’t pay artists for content that is freely available, our goal is to prevent the files from being widely distributed without financial support.
 				</p>
 				<p class="artist__text">
-					What won&apos;t we do? We won&apos;t tell you what music to play. We won&apos;t be responsible if you destroy a hotel room with a party (book your own hotels). We won&apos;t be responsible for your travel (book your own flights, we&apos;ll show you travel tricks). We don&apos;t want to be in the business of telling you what to do, you will be hiring us and we&apos;ll work for you. We might bail you out of jail... it depends. 
+					What won’t we do? We won’t tell you what music to play. We won’t be responsible if you destroy a hotel room with a party (book your own hotels). We won’t be responsible for your travel (book your own flights, we’ll show you travel tricks). We don’t want to be in the business of telling you what to do, you will be hiring us and we’ll work for you. We might bail you out of jail… it depends. 
 				</p>
+				
+					
+					
+
+
+
+
                     <p class="artist__text">
-                        Immutability of blockchain can not be undone, therefore, executed transactions
+                        Immutability of <div class="redtext">blockchain</div> can not be undone, therefore, executed transactions
                         cannot be reversed. In the situation where token has been spent, there will be no
                         refund possibilities available.
                     </p>
@@ -141,8 +138,8 @@ margin-top: 100px;
                         major investments, as it is your responsibility to adhere to legal and regulatory
                         mandates issued by government entities.
                     </p>
-				</div></div>
                 </div>
+            </div>
         </div>
     </section>
 {% endblock %}

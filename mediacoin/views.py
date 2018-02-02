@@ -25,6 +25,10 @@ def privacy(request):
 	return render(request, 'mediacoin/pages/privacy.html')
 def cookies(request):
 	return render(request, 'mediacoin/pages/cookies.html')
+def land(request):
+	return render(request, 'mediacoin/land/land_page1.html')
+def land2(request):
+	return render(request, 'mediacoin/land/landing_page.html')
 
 # contact
 def contact(request):

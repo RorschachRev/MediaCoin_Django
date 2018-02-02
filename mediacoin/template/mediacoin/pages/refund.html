@@ -4,20 +4,22 @@
 
 {% block title %} Refund Policy | MediaCoin {% endblock %}
 
-{% block page-styles %}
-
-    <link href="{% static 'stylesheets/refund.css' %}" rel="stylesheet">
-
-{% endblock %}
-
 {% block content %}
+<style>
+ #refund__heading {
+margin-top: 100px; color:yellow;
+}
+    p.refund__text {
+        color: white;
+    }
+</style>
 
     <div class="section space-for-header"></div>
     <section class="section section__refund">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="refund__heading">Refund Policy Notes</h1>
+                    <h1 id="refund__heading">Refund Policy Notes</h1>
                 </div>
             </div>
             <div class="row">

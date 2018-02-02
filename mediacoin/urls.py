@@ -46,8 +46,12 @@ urlpatterns = [
     url(r'^contact.html$', views.contact, name='contact'),
     url(r'^refund.html$', views.refund, name='refund'),
     url(r'^privacy.html$', views.privacy, name='privacy'),
+
     #url(r'^net_neutrality.html$', views.netneutral, name='netneutral'),
 
+    url(r'^land.html$', views.land , name='land'),
+    url(r'^land_general.html$', views.land2 , name='land2'),
+    url(r'^lblockchain1/$', views.ico, name='ico'),
 
     # purchase gift promo code page
     url(r'^purchase-gift-card/$', views.purchaseGiftCard, name='purchase-gift-card'),

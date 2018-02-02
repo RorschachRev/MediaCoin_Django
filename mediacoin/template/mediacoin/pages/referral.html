@@ -2,353 +2,56 @@
 
 {% load staticfiles %}
 
-{% block title %} Roadmap | MediaCoin {% endblock %}
+{% block title %} Referral | MediaCoin {% endblock %}
 
 {% block page-styles %}
 
-    <link href="{% static 'stylesheets/pages/roadmap.css' %}" rel="stylesheet">
+    <link href="{% static 'stylesheets/pages/referral.css' %}" rel="stylesheet">
 
 {% endblock %}
 
 {% block content %}
 
-<div class="section space-for-header"></div>
-<div class="roadmap__wrapper">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                <img class="roadmap__logo img-responsive" src="{% static 'images/mediacoin-logo.png' %}">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6 pr0">
-                <div class="roadmap__wrap first__wrap">
-                    <img class="roadmap__snake-image" src="{% static 'images/snake.png' %}" alt="">
+    <div class="section space-for-header"></div>
+    <section class="section section__refund">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="refund__heading">Refund Policy Notes</h1>
                 </div>
             </div>
-            <div class="col-xs-12 col-lg-6 pl0">
-                <div class="roadmap__wrap second__wrap">
-                    <div class="roadmap__wrap-image roadmap__wrap-image--first"></div>
-                    <div class="roadmap__date date__right first__date">
-                        <ul class="roadmap__date-list">
-                            <li class="roadmap__date-item">
-                                Oct 2017
-                            </li>
-                            <li class="roadmap__date-item">
-                                Nov 2017
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                Dec 2017
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="roadmap__description description__right">
-                        <ul class="roadmap__description-list">
-                            <li class="roadmap__description-item">
-                                Initial Research and Testing
-                            </li>
-                            <li class="roadmap__description-item">
-                                Demo code 
-                            </li>
-                            <li class="roadmap__description-item">
-                                Basic HTML Website
-                            </li>
-                            <li class="roadmap__description-item">
-                                Dynamic content site
-                            </li>
-                            <li class="roadmap__description-item">
-                                Marketing team 1
-                            </li>
-                            <li class="roadmap__description-item">
-                                Smart Contract Live, quietly published soft
-                            </li>
-                            <li class="roadmap__description-item">
-                                ETC launch
-                            </li>
-                            <li class="roadmap__description-item">
-                                Referral Network Tracking
-                            </li>
-                        </ul>
-                    </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="refund__text">
+                        Pending <div class="redtext">transactions</div> and transactions that have not purchased tokens can be
+                        reversed upon the purchasers request (processing fees may apply to user).
+                    </p>
+                    <p class="refund__text">
+                        After the <div class="quotes">purchase of tokens has taken place,</div> there are no refunds that may
+                        be processed, however we may be able to offer you guidance in how to exchange
+                        them with a support request (processing fees may apply to user).
+                    </p>
+                    <p class="refund__text">
+                        Immutability of <div class="redtext">blockchain</div> can not be undone, therefore, executed transactions
+                        cannot be reversed. In the situation where token has been spent, there will be no
+                        refund possibilities available.
+                    </p>
+                    <p class="refund__text">
+                        We, at MediaCoin are not responsible and are under no liability for incidences
+                        caused by PC malfunction, misunderstanding, or failure to adhere to policies and
+                        procedures laid out in facets of our website.
+                    </p>
+                    <p class="refund__text">
+                        Please be informed that MediaCoin is an ever evolving development and is not an
+                        official currency, however, most institutions will still require you to pay income,
+                        sales, capital gains, and/or any other applicable taxes on anything that has value,
+                        including cryptocurrency.  We encourage you to consult an expert before making any
+                        major investments, as it is your responsibility to adhere to legal and regulatory
+                        mandates issued by government entities.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6 pr0">
-                <div class="roadmap__wrap third__wrap">
-                    <div class="roadmap__wrap-image roadmap__wrap-image--second"></div>
-                    <div class="roadmap__description description__left">
-                        <ul class="roadmap__description-list">
-                            <li class="roadmap__description-item">
-                                Marketing team 2, RoryMartin.com
-                            </li>
-                            <li class="roadmap__description-item">
-                                Initial Coin Offering main launch
-                            </li>
-                            <li class="roadmap__description-item">
-                                Channel Partners
-                            </li>
-                            <li class="roadmap__description-item">
-                                Referral Network Reporting
-                            </li>
-                            <li class="roadmap__description-item">
-                                Payment options
-                            </li>
-                            <li class="roadmap__description-item">
-                                Paypal, Credit Card Purchase
-                            </li>
-                            <li class="roadmap__description-item">
-                                ETH launch, ETC payment
-                            </li>
-                            <li class="roadmap__description-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__description-item">
-                                Desktop Platform Proof of Concept
-                            </li>
-                            <li class="roadmap__description-item">
-                                Referral Network Payments
-                            </li>
-                            <li class="roadmap__description-item">
-                                Artist Services Alpha
-                            </li>
-                            <li class="roadmap__description-item">
-                                Additional Payment Networks
-                            </li>
-                            <li class="roadmap__description-item">
-                                Purchase Tokens on as many networks as possible
-                            </li>
-                            <li class="roadmap__description-item">
-                                Sell Tokens
-                            </li>
-                            <li class="roadmap__description-item">
-                                ACH, load prepaid Visa, Netspend, OKPay
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="roadmap__date date__left second__date">
-                        <ul class="roadmap__date-list">
-                            <li class="roadmap__date-item">
-                                Jan 2018
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                Feb 2018
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-lg-6 pl0">
-                <div class="roadmap__wrap fourth__wrap">
-                    <div class="roadmap__wrap-image roadmap__wrap-image--third"></div>
-                    <div class="roadmap__date date__right third__date">
-                        <ul class="roadmap__date-list">
-                            <li class="roadmap__date-item">
-                                Mar 2018
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="roadmap__description description__right">
-                        <ul class="roadmap__description-list">
-                            <li class="roadmap__description-item">
-                                Peer to Peer Network Delivery
-                            </li>
-                            <li class="roadmap__description-item">
-                                Desktop Platform Beta
-                            </li>
-                            <li class="roadmap__description-item">
-                                Mobile Platform Alpha
-                            </li>
-                            <li class="roadmap__description-item">
-                                iOS and Android Apps to access content
-                            </li>
-                            <li class="roadmap__description-item">
-                                Listing ETC token on 1-2 Exchanges
-                            </li>
-                            <li class="roadmap__description-item">
-                                Listing ETH token on 0-1 Exchanges
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6 pr0">
-                <div class="roadmap__wrap fifth__wrap">
-                    <div class="roadmap__wrap-image roadmap__wrap-image--fourth"></div>
-                    <div class="roadmap__description description__left">
-                        <ul class="roadmap__description-list">
-                            <li class="roadmap__description-item">
-                                Mobile Platform Beta
-                            </li>
-                            <li class="roadmap__description-item">
-                                Secure E-Book Publish
-                            </li>
-                            <li class="roadmap__description-item">
-                                Abstract Data transfer
-                            </li>
-                            <li class="roadmap__description-item">
-                                Onion style routing optional (1-5+ hops)
-                            </li>
-                            <li class="roadmap__description-item">
-                                Net Neutrality Rights restored
-                            </li>
-                            <li class="roadmap__description-item">
-                                Verification
-                            </li>
-                            <li class="roadmap__description-item">
-                                Artist Services
-                            </li>
-                            <li class="roadmap__description-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__description-item">
-                                Bandwidth Aggregation
-                            </li>
-                            <li class="roadmap__description-item">
-                                Protocol Hops
-                            </li>
-                            <li class="roadmap__description-item">
-                                Listing ETC token on 2-5 Exchanges (No
-                            </li>
-                            <li class="roadmap__description-item">
-                                Native Tether)
-                            </li>
-                            <li class="roadmap__description-item">
-                                Listing ETH token on 3-7 Exchanges (Tether
-                            </li>
-                            <li class="roadmap__description-item">
-                                Permitted)
-                            </li>
-                            <li class="roadmap__description-item">
-                                Intending FCC listing as ISP
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="roadmap__date date__left fourth__date">
-                        <ul class="roadmap__date-list">
-                            <li class="roadmap__date-item">
-                                Apr 2018
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                May 2018
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                <br/>
-                            </li>
-                            <li class="roadmap__date-item">
-                                June 2018
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-lg-6 pl0">
-                <div class="roadmap__wrap six__wrap">
-                    <div class="roadmap__wrap-image roadmap__wrap-image--fifth"></div>
-                    <div class="roadmap__date date__right fifth__date">
-                        <ul class="roadmap__date-list">
-                            <li class="roadmap__date-item">
-                                Mar 2018
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="roadmap__description description__right">
-                        <ul class="roadmap__description-list">
-                            <li class="roadmap__description-item">
-                                Peer to Peer Network Delivery
-                            </li>
-                            <li class="roadmap__description-item">
-                                Desktop Platform Beta
-                            </li>
-                            <li class="roadmap__description-item">
-                                Mobile Platform Alpha
-                            </li>
-                            <li class="roadmap__description-item">
-                                iOS and Android Apps to access content
-                            </li>
-                            <li class="roadmap__description-item">
-                                Listing ETC token on 1-2 Exchanges
-                            </li>
-                            <li class="roadmap__description-item">
-                                Listing ETH token on 0-1 Exchanges
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6 pr0">
-                <div class="roadmap__wrap seven__wrap">
-                    <div class="roadmap__wrap-image roadmap__wrap-image--six"></div>
-                    <div class="roadmap__description description__left">
-                        <ul class="roadmap__description-list">
-                            <li class="roadmap__description-item">
-                                Full value network, the future of work:
-                            </li>
-                            <li class="roadmap__description-item">
-                                Find, Deliver and Appreciate Value
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="roadmap__date date__left six__date">
-                        <ul class="roadmap__date-list">
-                            <li class="roadmap__date-item">
-                                Summer
-                            </li>
-                            <li class="roadmap__date-item">
-                                2019
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-lg-6 pl0">
-                <div class="roadmap__wrap eight__wrap"></div>
-            </div>
-        </div>
-    </div>
-</div>
+    </section>
 {% endblock %}
 

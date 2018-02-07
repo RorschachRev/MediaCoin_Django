@@ -1,0 +1,273 @@
+
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %} For musicians | MediaCoin {% endblock %}
+
+{% block page-styles %}
+
+
+
+{% endblock %}
+
+{% block content %}
+<style>
+	#centerimage {
+		align-content:center;
+	}
+	h1 { color:whitesmoke;
+	}
+	body {background-color: black;
+	}
+	h3 {color:lightgray;
+	}
+	h2 {color:#2096FF}
+	p {color: aliceblue;
+	}
+	li {color: aliceblue;
+	}
+	.btn {
+  background: #424242;
+  background-image: -webkit-linear-gradient(top, #424242, #000000);
+  background-image: -moz-linear-gradient(top, #424242, #000000);
+  background-image: -ms-linear-gradient(top, #424242, #000000);
+  background-image: -o-linear-gradient(top, #424242, #000000);
+  background-image: linear-gradient(to bottom, #424242, #000000);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 4px 8px 4px 8px;
+  border: solid #8cd3ff 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.space-for-header{
+	margin-top: 120px;
+}
+h3 {
+	text-align:center;
+}
+#mailchimp {
+	background: #000000;
+	color: #3D6392;
+	padding: 20px 15px;
+}
+	#mailchimp input {
+		 border: medium none;
+    color: gray;
+    font-family: times new roman;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 300px;
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+		#mailchimp input.email { background: #fff }
+		#mailchimp input.name { background: #fff}
+		#mailchimp input[type="submit"] {
+			background: #115B87;
+			color: #fff;
+			cursor: pointer;
+			font-size: 15px;
+			width: 35%;
+			padding: 8px 0;
+
+		}
+			#mailchimp input[type="submit"]:hover { color: #F2C94C }	
+</style>
+
+   
+<div class="section space-for-header">
+</div>
+   
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                  <h1 id="landingpge2" class="text-center">Services for Musicians</h1>
+					<h3>Secure Content Delivery for Musicians</h3>
+           <hr></hr>
+	     </div>
+   	   </div> 
+            <div class="row">
+                <div class="col-xs-12">
+  <p class="artist__text"><strong> Success as an independant musician generally requires extensive knowledge of business skills, sales skills, advertising, marketing, budgeting, technology and publication.</strong></p>
+  <p> MediaCoin will provide custom solutions to musicians by providing a personal account representative to each musician or group. An account representative&apos;s primary goal is to put you on the fast track to success. Whether you are an established artist or just starting from the beginning, our strategy will enhance your relationship with fans while letting you focus on the music. MediaCoin also offers individual marketing services directly to musicians at our cost.</p>
+  </div>
+
+<div class="col-xs-12 col-md-6">
+  <p class="artist__text">
+					<h3>BENEFITS</h3>
+				<ul>
+						<li>Advertising:
+							<ol>
+								<li>Advertise your content using our own dollars</li>
+								<li>Relationships with venues that will advertise your shows</li>
+								<li>Providing online, print, social, and guerilla advertising to content creators</li>	
+							</ol>
+						</li>
+						<li>Events and Shows:
+							<ol>
+								<li>Booking gigs (tell us the city, we will book the show)</li>
+								<li>Music Festivals</li>
+								<li>Access to our partner network</li>
+								<li>Gig, event and show management</li>
+							</ol>
+						</li>
+						<li>Marketing:
+							<ol>
+								<li>Extra attendance for shows</li>
+								<li>News and announcements for each gig and event</li>
+								<li>Media syndication and sharing</li>
+								<li>Social media syndication (posting and cross posting multiple accounts)</li>
+								<li>Apparel, Fashion, Logo, Design and Brand creation</li>
+							</ol>
+						</li>
+						
+						<li>Payment:
+							<ol>
+								<li>Get paid directly for every music play</li>
+								<li>Get paid directly by the venue for a gig, or make us handle it</li>
+								<li>Prepaid credit card, Paypal, merchant card services</li>
+							</ol>
+						</li>	
+						<li>Technology:
+							<ol>
+								<li>Twitter, Facebook, Instagram, and many more</li>
+								<li>Publishing Content</li>
+								<li>Streaming of Live Events</li>
+								<li>Device specific access (ringtones)</li>
+								<li>Content and Payment Security</li>
+								<li>Website creation, hosting, SEO, promotion</li>
+								<li>App tracking for contact management</li>
+							</ol>
+						</li>	
+						<li>Marketplace:
+							<ol>
+								<li>Musicians looking for bands</li>
+								<li>Bands looking for musicians</li>
+								<li>Musicians trying to start a band</li>
+								<li>Independent Remaster Marketplace</li>
+								<li>Independent Designer Marketplace</li>
+								<li>Independent Video Editing Marketplace</li>
+								<li>Songwriter listings</li>
+								<li>Vocaloid services</li>
+								<li>Copyright licensing</li>
+							</ol>
+						</li>	
+						<li>Legal:
+							<ol>
+								<li>Recording Contracts</li>
+								<li>Legal Contracts</li>
+								<li>Insurance where required</li>
+								<li>Commercial Licensing (games, TV, commercials)</li>
+							</ol>
+						</li>	
+						<li>Publication:
+							<ol>
+								<li>Discount Recording Studio Time</li>
+								<li>CD Remastering</li>
+								<li>Featured content on MediaCoin</li>
+								<li>Appearances and coordination</li>
+								<li>Two Way Live Streamings</li>
+							</ol>
+						</li>
+						<li>Business:
+							<ol>
+								<li>Partnerships and Joint Ventures</li>
+								<li>Discount access to services</li>
+								<li>Shared travel and cost splits</li>
+								<li>Accounting and Tax services</li>
+							</ol>
+</div>
+<div class="col-xs-12 col-md-6">
+  <picture alt="description of image">
+    <!-- Default low resolution image -->
+    <source src="/static/land/small.jpg">
+    <!-- Medium resolution image -->
+    <source src="/static/land/medium.jpg" media="(min-width: 768px)">
+    <!--High resolution Image -->
+    <source src="/static/land/large.jpg" media="(min-width: 1200px)">
+    <!-- Fallback image incase the custom picture element is not supported -->
+    <img src="/static/land/network-bulb.png" alt="description of image" class="img-responsive"> </picture>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+	<hr></hr> 
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                 <p class="artist__text">
+					What do we get out of it? MediaCoin's Premier Service is available to artists who provide us with exclusive digital content access. By making our exclusive partners successful, our platform becomes more successful. This service can only be available for content that is exclusive to MediaCoin however, because once content is pirated, we can&apos;t take it back (yet). Many users understandably won&apos;t pay artists for content that is freely available, so our goal is to prevent the files from being widely distributed without financial support in the first place.
+				</p>
+				<p>
+					What won&apos;t we do? We won&apos;t tell you what music to play. We won&apos;t book your hotel (we don&apos;t want to be responsible for destroyed hotel rooms). We won&apos;t be responsible for your travel (while you book your own flights, we&apos;ll still show you travel tricks). Simply put, we don&apos;t want to be in the business of telling you what to do. You hire us, we work for you. But, we just might bail you out of jail it just depends on what happened... Allegedly.
+				</p>
+				<p>
+					Immutability of blockchain can not be undone. What this means is that when a transaction is executed,
+                        it cannot be reversed. Instances where tokens have been spent, there will be no
+                        refund possibilities available.
+				</p>
+			<p>
+                        MediaCoin is not responsible or liable for incidences
+                        caused by PC malfunction, misunderstanding, or failure to adhere to policies and
+                        procedures laid out in facets of our website.
+                    </p>
+                    <p>Please be informed that MediaCoin is an ever evolving development and is not an
+                        official currency, however, and most institutions will still require you to pay income,
+                        sales, capital gains, and/or any other applicable taxes on anything that has value,
+                        including cryptocurrency.  We encourage you to consult an expert before making any
+                        major investments, as it is your responsibility to adhere to legal and regulatory
+                        mandates issued by government entities.
+                        </p>
+		</div>
+	</div>
+	<!-- Begin MailChimp Signup Form -->
+	<center>
+<div id="mailchimp">
+	<form action="Replace with your MailChimp code" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+
+		<input type="email" size="30" value="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+		<input type="text" size="30" value="Enter your name" name="FNAME" class="name" id="mce-FNAME" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+
+		<div id="mce-responses" class="clear">
+			<div class="response" id="mce-error-response" style="display:none"></div>
+			<div class="response" id="mce-success-response" style="display:none"></div>
+		</div>
+
+		<div class="clear">
+			<input type="submit" value="CONTACT US" name="" id="mc-embedded-subscribe" class="button">
+		</div>
+	</form>
+</div>
+</center>
+<!--End mc_embed_signup-->
+	
+<hr></hr>
+        <div class="row">
+                <div class="col-xs-12">
+                  <h2 class="text-center">WHITEPAPER</h2>
+		  <h3>	We offer our whitepaper only in English, More languages coming soon!</h3>
+                  <h4 class="text-center"> <a href="/static/images/whitepaper.pdf">READ WHITEPAPER</a> </h4>
+			
+                </div>
+        </div>
+<hr></hr>
+</div>
+{% endblock %}

@@ -46,6 +46,7 @@ urlpatterns = [
     url(r'^contact.html$', views.contact, name='contact'),
     url(r'^refund.html$', views.refund, name='refund'),
     url(r'^privacy.html$', views.privacy, name='privacy'),
+    url(r'^Musician_Services.html$', views.Musician_Services, name='Musician_Services'),
 
     #url(r'^net_neutrality.html$', views.netneutral, name='netneutral'),
 

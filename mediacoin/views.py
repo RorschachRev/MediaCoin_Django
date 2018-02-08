@@ -60,6 +60,11 @@ def roadmap(request):
 def team(request):
 	return render(request, 'mediacoin/pages/team.html')
 
+# Musician_Services page
+def Musician_Services(request):
+    return render(request, 'mediacoin/pages/Musician_Services.html')
+
+
 # purchase gift promo code page
 def purchaseGiftCard(request):
     gift_prices = GiftPrice.objects.all()

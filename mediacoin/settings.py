@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'qs*j__cp5r66u@(r1&)m69te*y^ypfhrv*9(9jcjq!%mldbg&#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','192.168.7.228','[::1]','localhost','mediacoin.stream','.mediacoin.stream']
+ALLOWED_HOSTS = ['127.0.0.1','192.168.7.198','[::1]','localhost','mediacoin.stream','.mediacoin.stream']
 
 
 # Application definition

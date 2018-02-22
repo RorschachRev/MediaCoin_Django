@@ -16,8 +16,7 @@ def index(request):
 def demo(request):
 	return render(request, 'mediacoin/demo.html')
 
-# ICO stretch goals view page
-def ico(request):
+def token(request):
 	return render(request, 'mediacoin/pages/ico.html')
 def refund(request):
 	return render(request, 'mediacoin/pages/refund.html')

@@ -1,0 +1,21 @@
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="/static/stylesheets/jquery-ui-1.12.1.custom/jquery-ui.css">
+<div id="cookie" title="Cookie Policy">This website uses cookies to ensure you get the best experience on our website. <a href=/privacy.html>Privacy Policy  </a><a href=/cookies.html>Cookie Policy</a></div>
+<script>
+var cookies=document.cookie.indexOf("Mcookie");
+$( "#cookie" ).dialog({ autoOpen: false});
+if(cookies === -1) {
+    $( "#cookie" ).dialog({ beforeClose: function( event, ui ) {} }).dialog({ width: "100%"}).dialog({ draggable: false }).dialog({ resizable: false}).dialog("option", "position", { my: "left bottom", at: "left bottom", of: window }).dialog({ autoOpen: true}); 
+    $( "#cookie" ).on( "dialogbeforeclose", function( event, ui ) {
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays*24*60*60*1000));
+            var expires = "expires="+ d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";    
+        }
+        setCookie("Mcookie", 1, 365); 
+    });
+}
+</script>
+
+

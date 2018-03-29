@@ -4323,7 +4323,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:not(.btn) {
-    color: #000000;
+    color: #FFFFFF;
     opacity: 0.75;
 }
 
@@ -4366,7 +4366,7 @@ body {
     }
 
     .navbar-default .navbar-nav > li > a:not(.btn) {
-        color: #000000;
+        color: #FFFFFF;
     }
 }
 
@@ -4376,7 +4376,7 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .navbar-default .navbar-nav > li > a:not(.btn) {
         color: #333;
         opacity: .8;
